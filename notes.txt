@@ -1,38 +1,73 @@
 THINGS YOU CAN DO W/ JS:
 
-JavaScript sprinkles: AJAX - adding interactivity - form submissions - 
-loading screeens - popups/modals - updating data on a sub form
+    JavaScript sprinkles: AJAX - adding interactivity - form submissions - 
+    loading screeens - popups/modals - updating data on a sub form
 
-Web App: complete app - frameworks= react, vue, angular, svelte, 
-vanillajs(regular js)
+    Web App: complete app - frameworks= react, vue, angular, svelte, 
+    vanillajs(regular js)
 
-Sever Software: Node.js = express, nest.js, sail.js 
+    Sever Software: Node.js = express, nest.js, sail.js 
 
-Mobile Apps: react native, native script, cordova 
+    Mobile Apps: react native, native script, cordova 
 
-Desktop App: electron 
+    Desktop App: electron 
 
-Games: Phaser, webGL, Three.js 
+    Games: Phaser, webGL, Three.js 
 
-Hardware: Arduino 
+    Hardware: Arduino 
 
 HISTORY:
-ECMA = JavaScript 
+    ECMA = JavaScript 
 
 ECMASCRIPT RUNTIMES:
-Google chrome - V8 engine 
-firefox - spidermokey warpmokney 
-microsoft edge - blink now V8
-internet explorer - chakra (no longer supported)
-Node.js - V8
+    Google chrome - V8 engine 
+    firefox - spidermokey warpmokney 
+    microsoft edge - blink now V8
+    internet explorer - chakra (no longer supported)
+    Node.js - V8
 
 WAYS OF WRITING JS
-inline -  not reccomended 
-internal - sometimes appropriate = <script> inside body or head of HTML 
-    mostly used in things like google adds, to load befoer application 
-    loads or external tools 
-external - preffered = load it in each HTML
+    inline -  not reccomended 
+    internal - sometimes appropriate = <script> inside body or head of HTML 
+        mostly used in things like google adds, to load befoer application 
+        loads or external tools 
+    external - preffered = load it in each HTML
 
 Notes: (random)
-code . = open VS code
-emmet 
+    code . = open VS code
+    emmet 
+    To run html file/ js on browser: 
+        Right click on html => copy path => past into broswer
+    when making repo => press period to open VS code and start project that has 
+        been created or have README file 
+
+
+WHITE SPACE:
+    does not have meaning or do anything is JS 
+
+CASE SENSITIVITY:   
+    when naming functions, classes, etc 
+    be specific with varible names
+    EX:
+    const hello = "world";
+    let HELLO = "WORLD!";
+     
+     console.log(hello) => frist hello 
+
+COMMENTS:
+    used for adding comment to code
+    make a list of to-do items 
+    EX:
+    shortcut => command - forward slash = making comment 
+    Use TODO: when ding projects or tracking progress
+    Multy line comment */ type */
+
+SEMI-COLONS:
+    are optional in most cases 
+
+CONSOLE:
+    Right click on browser => inspect 
+
+
+
+
