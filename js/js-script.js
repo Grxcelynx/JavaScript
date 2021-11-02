@@ -1,10 +1,11 @@
 console.log('hello world')
 
-// one line comment
 
-/* this is a double 
-line comment */ 
+// single line comment 
+
+/* double lined 
+comment */
 
 console.log('Grace')
-console.log('Sushi')
+console.log('Suhsi')
 
