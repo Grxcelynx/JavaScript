@@ -33,5 +33,6 @@ internal - sometimes appropriate = <script> inside body or head of HTML
     loads or external tools 
 external - preffered = load it in each HTML
 
-
+Notes: (random)
 code . = open VS code
+emmet 
