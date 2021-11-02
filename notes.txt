@@ -16,3 +16,22 @@ Games: Phaser, webGL, Three.js
 
 Hardware: Arduino 
 
+HISTORY:
+ECMA = JavaScript 
+
+ECMASCRIPT RUNTIMES:
+Google chrome - V8 engine 
+firefox - spidermokey warpmokney 
+microsoft edge - blink now V8
+internet explorer - chakra (no longer supported)
+Node.js - V8
+
+WAYS OF WRITING JS
+inline -  not reccomended 
+internal - sometimes appropriate = <script> inside body or head of HTML 
+    mostly used in things like google adds, to load befoer application 
+    loads or external tools 
+external - preffered = load it in each HTML
+
+
+code . = open VS code
