@@ -1,0 +1,18 @@
+THINGS YOU CAN DO W/ JS:
+
+JavaScript sprinkles: AJAX - adding interactivity - form submissions - 
+loading screeens - popups/modals - updating data on a sub form
+
+Web App: complete app - frameworks= react, vue, angular, svelte, 
+vanillajs(regular js)
+
+Sever Software: Node.js = express, nest.js, sail.js 
+
+Mobile Apps: react native, native script, cordova 
+
+Desktop App: electron 
+
+Games: Phaser, webGL, Three.js 
+
+Hardware: Arduino 
+
