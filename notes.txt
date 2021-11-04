@@ -77,7 +77,7 @@ GIT:
 
 DATA TYPES:
 
-    typeof() => will return a type of object 
+    typeof() => will return a type of object - not a function is a keyword 
 
 
     Primitive data types:
@@ -109,8 +109,27 @@ DATA TYPES:
         Big int:
             let bigOne = 1n => adding n to number values 
             does not have infinity
+            cannot be a decimal
         Symbol:
             let sym = Symbol("im a symbol") => creates an 
                 anonymous unique value 
             
 
+VARIABLES:
+    var - used in previous JS versions
+    let - declared values can be reassigned | can only be declared once 
+    const - declared values can not be reassigned
+
+OPERATORS:
+    Assignment
+    = assignment
+    += addition assignment
+    -= subtraction assignment
+    *= multiplication assignment
+    /= division assignment
+    Arithmetic
+    + addition
+    - subtraction
+    * multiplication
+    / division
+    % modulo
