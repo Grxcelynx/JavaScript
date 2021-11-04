@@ -133,3 +133,8 @@ OPERATORS:
     * multiplication
     / division
     % modulo
+    || or 
+    && and 
+    
+
+    !(1 != true) => reverses it 
