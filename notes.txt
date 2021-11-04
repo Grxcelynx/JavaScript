@@ -70,4 +70,47 @@ CONSOLE:
 
 
 
+GIT:
+
+    git branch - d => delete branch 
+    git branch => shows all branches - hit :q to exit 
+
+DATA TYPES:
+
+    typeof() => will return a type of object 
+
+
+    Primitive data types:
+        String:
+            anything within a quotation mark
+            EX: let hello = "world" or use single quotes 
+            Template literal: let greeting = 'hello ${hello};
+                                greeting (being entered)
+                                returned ; 'hello world'
+            concatnating: let string1 ='hello'
+                            let string2 = 'world'
+                            string1 + '' + string2
+                            returns 'hello world'
+            Properties: 
+                .padStart() & .padEnd() => study this property 
+
+
+        Number:
+            integer 
+            infinity 
+        Boolean:
+            true === 0 => false 
+            true == 0 => false
+        Undefined:
+            let varible => undefined because no value is assigned to varible 
+        Null:
+            null inherits from object 
+            let var = null will return null 
+        Big int:
+            let bigOne = 1n => adding n to number values 
+            does not have infinity
+        Symbol:
+            let sym = Symbol("im a symbol") => creates an 
+                anonymous unique value 
+            
 
