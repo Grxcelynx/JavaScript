@@ -138,3 +138,5 @@ OPERATORS:
     
 
     !(1 != true) => reverses it 
+
+    test for git error 
