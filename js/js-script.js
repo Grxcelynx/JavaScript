@@ -9,6 +9,7 @@ let num = 9
 console.log(num)
 
 let Big = 7n
+console.log(Big)
 console.log(typeof(Big))
 
 
