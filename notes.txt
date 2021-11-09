@@ -139,4 +139,57 @@ OPERATORS:
 
     !(1 != true) => reverses it 
 
-    test for git error 
+Concatination: + in making a statement 
+
+Template literal: using {variable} in a long story => 
+    refer to day 2 takehome 
+
+DAY 3:
+
+Additional notes:
+  arr[num] => gives back idx of element in arr or string 
+  str.indexOf[0] => will give the index of varible inside []
+  str.slice(str.indexOf('Wo')) => give starting index of an 
+        array or get the last word 
+
+
+STRING METHODS 
+
+    Array and string methods: 
+
+        property that belongs to strings AND array: 
+            .length() 
+            arr[num] => gives back idx of element in arr or string 
+            str.indexOf[0] => will give the index of varible inside []
+            str.slice(str.indexOf('Wo')) => give starting index of an 
+                array or get the last word 
+            join() => takes elements of array and joins it to a sting 
+            arr.join(', ') => joins as a string
+            arr.reverse.join(', ') => reverse it and join as a string 
+            split() => can undo a join but remains a string 
+                can split string as well alike an array
+    
+    strings:
+
+        methods: ! CASE SENSITIVITY ! 
+            str.toUpperCase() => everything to upper case
+            str.toLowerCase() => everything to lower case
+            str.replace() => will replace the first instance 
+            str.replaceAll() => will replace all elements
+            str.repeat() => repeat the element inputed into function 
+            str.startsWith() => to check if string starts with input given in function
+            str.endsWith() => check if str ends with input in function 
+            str.includes() => check to see if input is anywhere in the str 
+
+POP UP METHODS 
+
+    alert(userName) => pop up alert in browser 
+        can add more to the string to deliver more of a msg
+    confirm() => gives a cancel or ok in the browser notfication tab 
+        when hit cancel = false vs ok would = true 
+    prompt() => asks user on browser for a value 
+        gives back string value 
+
+MATH PROPERTIES 
+
+DATE OBJECT         
