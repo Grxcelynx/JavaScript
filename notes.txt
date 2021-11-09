@@ -190,7 +190,7 @@ POP UP METHODS
     prompt() => asks user on browser for a value 
         gives back string value 
         prompt('enter' , 10) => default value 
-        EXAMPLE:
+        EXAMPLE REVERSE | SPLIT | JOIN : 
         const firstName = prompt('Please enter your first name')
         const splitName = firstName.split('')
         let reversedName = splitName.reverse()
@@ -199,7 +199,7 @@ POP UP METHODS
 
         let num = 25 => num is string 
         parseInt(num) => makes it an integer 
-        
+
         PARSE INT EXAMPLE:
         let newNum = parseInt(prompt('Enter a number', 10))
         let newNum2 = parseInt(prompt('Enter a second number', 10))
