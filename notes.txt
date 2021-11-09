@@ -204,9 +204,34 @@ POP UP METHODS
         let newNum = parseInt(prompt('Enter a number', 10))
         let newNum2 = parseInt(prompt('Enter a second number', 10))
         alert('Your result: ' + (newNum + newNum2)) 
+        OR 
+        const firstNum = prompt('enter num', 10)
+        const secondNum = prompt('enter num', 10)
+        const firstInt = parseInt(firstNum)
+      
 
 MATH PROPERTIES 
+    Global object
+        can call anywhere in JS 
+        is own object 
+        Math. => has many properties | use console.log to display all
+        !!! check class docs for all math operations !!
 
-DATE OBJECT         
+
+DATE OBJECT   
+    Date() => will return a string of the current date time 
+    const today = new Date() = call today and will return current day and time 
+    Date.now => is a function that returns a number 
+    Date.parse(numbers/dates in string) => will return a number value 
+    let tomorrow = new Date(2021, 11, 8,7, 5, 7)
+    let nextMonth = new Date(tomorrow.getFullYear(), tomorrow.getMonth() + 1
+    , tomorrow.getDate) => to get the next date in the next month 
+    Date.parse('date number').toString()
+
+    newDay.toLocaleDateString('en') =>  gives todays date
+    new Date(Date.now()) => date and time 
+    new Date(now).getHours
+    new Date(now).getMinutes
+    
 
 
