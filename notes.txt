@@ -311,6 +311,7 @@ DAY 4:
                 alert('you have access')
             }
 
+
             true && true === true 
             false && true ===  false 
             false && false === false 
@@ -321,3 +322,38 @@ DAY 4:
             false || false === false 
             true || false ===  true  
             
+        Switch Statement:
+            for comparing type of something or data values
+
+            let submittedForm = {
+                firstName: 'grace',
+                lastName: 'birnam',
+                formType: '1099',
+
+            }
+
+            switch (submittedForm.formType) {
+                case '1099':
+                    //process 1099 form 
+                    break
+                case 'W-2':
+                    //process w-2
+                    break
+                default: 
+                    alert(`Form Type ${submittedForm.formType} not regonized`);''
+                    break
+            }
+
+            VS 
+
+            if (submittedForm.formType === '1099') {
+
+            } else if (submittedForm.formType === 'w-2) {
+
+            } else {
+
+            }
+
+        Conditional / Ternary operator:
+
+            let accessGranted = userProfile.userRole === "manager" ? ture:false
