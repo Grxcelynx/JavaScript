@@ -263,24 +263,61 @@ DAY 4:
 
             
         Comparison Operator
-        === strict equal
-        !== strict not equal
-        > greater than
-        >= greater than or equal
-        < less than
-        <= less than or equal
+            === strict equal
+            !== strict not equal
+            > greater than
+            >= greater than or equal
+            < less than
+            <= less than or equal
         Truthy and Falsy
-        Falsy
-        False
-        0
-        Empty string ""
-        Null
-        Undefined
-        NaN
-        Truthy
-        All other values
-        Logical Operators
-        && and
-        || or
-        ! not
+            Falsy
+                False
+                0
+                Empty string ""
+                Null
+                Undefined
+                NaN
+            Truthy
+                All other values
+            Logical Operators
+                && and
+                || or
+                ! not
+        EXAMPLE: converting numbers 
+        *ParseInt() => converts a string to an interger 
 
+            let num = prompt("enter")
+            const convertnum = parseInt(num):
+            if (num > 1 && num < 10) {
+                alert()
+            } else {
+                alert()
+            }
+
+            let userProfile = {
+                userRole: 'admin',
+                fname: 'grace',
+                lname: 'birnam',
+                department: 'IT',
+                permissionLevel: '2'
+
+            }
+
+            if(userProfile.userRole === 'admin' || userProfile.userRole === "manager") {
+                alert('you have access')
+            }
+
+            if(userProfile.userRole === 'manager' || userProfile.department === "IT" && userProfile.permissionLevel >= 2) {
+                alert('you have access')
+            }
+
+            true && true === true 
+            false && true ===  false 
+            false && false === false 
+            true && false ===  false 
+
+            true || true === true 
+            false || true ===  true 
+            false || false === false 
+            true || false ===  true  
+            
