@@ -357,3 +357,5 @@ DAY 4:
         Conditional / Ternary operator:
 
             let accessGranted = userProfile.userRole === "manager" ? ture:false
+
+
