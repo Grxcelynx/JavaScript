@@ -232,6 +232,55 @@ DATE OBJECT
     new Date(Date.now()) => date and time 
     new Date(now).getHours
     new Date(now).getMinutes
-    
 
+
+
+DAY 4:
+
+
+    CONTROL FLOW:
+
+        Else If/ if/ else:
+            Condition: is any expression that is truthy or falsey 
+            Expression: is any code that resolves to a value | can be almost anything
+            Statement: code path executed if condition is truthy 
+        If / Else:
+            EXAMPLE:
+                if (true) {
+                    // do the following 
+                } else {
+                    // Otherwise do this 
+                }
+        Else If:
+           EXAMPLE:
+                if (true) {
+                    // do the following 
+                } else if (something == null) {
+                    // Otherwise do this 
+                } else {
+                    // unless none above apply do this 
+                }
+
+            
+        Comparison Operator
+        === strict equal
+        !== strict not equal
+        > greater than
+        >= greater than or equal
+        < less than
+        <= less than or equal
+        Truthy and Falsy
+        Falsy
+        False
+        0
+        Empty string ""
+        Null
+        Undefined
+        NaN
+        Truthy
+        All other values
+        Logical Operators
+        && and
+        || or
+        ! not
 
