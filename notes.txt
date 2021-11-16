@@ -423,7 +423,12 @@ DAY 5:
             Return:
                 can return a value | nothing | is alike break - it will stop execution and return the value presented to it
                 can use return instead of break in a switch statement 
+
+
+            Arrow fucntion:
+                shouldn't use for methods 
+                differences and limitations
+                anything delcared within the local scope is not avaibale to global scope 
+                inside {} is a local scope 
                 
-
-
 
