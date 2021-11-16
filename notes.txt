@@ -359,3 +359,71 @@ DAY 4:
             let accessGranted = userProfile.userRole === "manager" ? ture:false
 
 
+DAY 5:
+
+    Anonymous Functions
+    Parameters
+    function Declaration vs Function Expressions
+    Calling a Function
+    return Keyword
+    Arrow Functions
+
+        EXAMPLES:
+            let input1
+            let input2
+            let convertedInput1
+            let convertedInput2
+
+            function promptUser() {
+                input1 = prompt("enter a number")
+                input2 = prompt("enter another number")
+            }
+
+            function convertInput() {
+                convertedInput1 = pasreInt(input1)
+                convertedInput2 = pasreInt(input2) 
+                }
+
+            function getMaxNumber() {
+                if (convertedInput1 && convertedInput2) {
+                if (convertedInput1 > convertedInput2)
+                alert(`${convertedInput1} is greater than ${convertedInput2`}
+                else if(convertedInput1 === convertedInput2)
+                alert(numbers are equal)
+                else 
+                    alert(`${convertedInput2} is greater than ${convertedInput1`}
+                }
+
+            }
+
+            function  isValidNumber() {
+                return convertedInput1 && convertedInput2
+            }
+
+            TO DECALRE A Function: fucntion functionName(paramaters) {
+                console.log(`${Parameters})
+            }
+
+            Paramater = anything that resolves to a value 
+            Default values: 
+                setting paramater with inital values 
+                if an undefied value comes into the paramter it results in the default value 
+
+            primitive values: number, string, null, symbol, boolean 
+
+            referance values: objects and arrays 
+
+            Annonymous function:
+                let changeNumber = function(num) {
+                    num *=10
+                    return num;
+                } 
+                can create a function with the same name as another fucntion 
+            
+            Return:
+                can return a value | nothing | is alike break - it will stop execution and return the value presented to it
+                can use return instead of break in a switch statement 
+                
+
+
+
