@@ -431,4 +431,50 @@ DAY 5:
                 anything delcared within the local scope is not avaibale to global scope 
                 inside {} is a local scope 
                 
+DAY 6:
 
+    Promises:
+        something that will be done sometime 
+        kind of an IOU
+        allows for supporting asychronous operations 
+
+        3 states:
+            pending: IOU state nothing to check 
+            resolved: processingg 
+            rejected: not happening
+
+        Asynchronous:
+            doesn't happen at the same time 
+            think of a resturant kitchen 
+            so far everything has been synchronous 
+            operations may not be completed yet 
+            bites a lot of new devs 
+
+        How to create a promise:
+
+            const asychronousFunction = new Promise((resolve, reject) => {
+                //reject(new Error("failed to load"))
+                setTimeout(() => {
+                    resolve('A asynch msg');
+                }, 4000)
+            })
+
+            console.log(asychronousFunction());
+
+            how to call:
+
+            function alertMsg(message) {
+                alert(message)
+            }
+
+            function logError(error) {
+                console.log(error.message);
+            }
+
+            asychronousFunction().then((message) => {
+                console.log(message)
+            })
+
+            asychronousFunction.then(alertMsg, logError);
+
+            
