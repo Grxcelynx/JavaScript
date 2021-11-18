@@ -548,3 +548,20 @@ DAY 6:
             .then(alertMsg)
             .then(logError)
 
+        ASYNC / AWAIT :
+
+            keywords 
+            fairly new to JS
+            works with promises 
+            will return data later 
+            can call the await keyword on the async function 
+            cannot do / work in global scope because global is not asynch it is ran sync 
+            
+
+
+
+    APIs:
+
+
+    JSON:
+
