@@ -467,6 +467,7 @@ DAY 6:
                 alert(message)
             }
 
+
             function logError(error) {
                 console.log(error.message);
             }
@@ -477,4 +478,73 @@ DAY 6:
 
             asychronousFunction.then(alertMsg, logError);
 
+        ADDING MORE 
+
+            const asychronousFunction = new Promise((resolve, reject) => {
+                //reject(new Error("failed to load"))
+                setTimeout(() => {
+                    resolve('A asynch msg');
+                }, 4000)
+            })
+
+            console.log(asychronousFunction());
+
+            how to call:
+
+            function alertMsg(message) {
+                alert(message)
+            }
+
+            function telephone(message) {
+                return `${message} im adding more`
+            }
+
+            function logError(error) {
+                console.log(error.message);
+            }
+
+            asychronousFunction
+            .then(telephone, logError)
+            .then(alertMsg, logError)
+
+            .catch(logError) => to add a ton of log errors | its a catch all so any reject that happens it'll insert it 
+            .finally(() => {
+                console.log('done with it all')
+            }) => will happen after everything is done
             
+            console.log('this will happen')
+            asychronousFunction.then(alertMsg, logError);
+
+        To use when trying to find any errors may run into 
+         
+            try {
+
+            } catch (ex) {
+
+            } finally {
+
+            }
+
+        .all(any number of Promises) 
+            => will make multiple things happen and resolve 
+            EXAMPLE:
+
+            let promises = []
+            for (let index = 0; i < 10; index++) {
+                promises[index] = new Promise((resolve, reject) {
+                    const timer = Math.round(Math.random() * 10)
+                    setTimeout(() => {
+                        resolve(timer)
+                    } , 400)
+
+                })
+            }
+            console.log(promises)
+            Promise.all(promise)
+            .then((values) => {
+                console.log('everything resolved and done')
+                console.log(values)
+            })
+            .then(alertMsg)
+            .then(logError)
+
