@@ -556,12 +556,18 @@ DAY 6:
             will return data later 
             can call the await keyword on the async function 
             cannot do / work in global scope because global is not asynch it is ran sync 
-            
+
 
 
 
     APIs:
-
+        Usually have a key 
+        Some need authenitcation 
+        Some are open but rate limited 
+        use fetch to acess data 
+            fetch(URL).then(response => {
+                
+            })
 
     JSON:
 
