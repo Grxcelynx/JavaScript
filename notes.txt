@@ -600,8 +600,62 @@ DAY 6:
 DAY 7:
 
     Arrays:
+        data type for specifically sorted data 
+        varibles used to store elements as a list 
+        each element's position is specified by an index 
+        zero based index starts at 0 not 1 
+        EXAMPLE: 
+            const officeStaff = ["name", "name", ]
+
+        .length = calculates the number of elements inside the array 
+        .push = adds one or more elements to the end of an array 
+        .concat = joins two or more arrays and create a new one without modifying the orginal 
+        .indexOf = returns the first index position of an element 
+        .splice = adds and or removes elements in a given array (positon, # of elements, item )
+        .slice = creates a shallow copy of the original array | can insert a number and it will start at that position  
+        .map = creates a shallow copy of the orginal array but modifies it yet still keeps new array 
+
+        .pop = takes off last element in an array and returns the popped off value as well
+
 
     Loops:
+        For loops: 
+            for specific ranges:
+            for (let i = 0; i < 20; i ++) {
+                console.log(i)
+            }
+
+            for objects:
+            for(const key in obj) {
+                console.log(key)
+                console.log((obj[key]))
+            }
+
+            for arrays:
+            for(const item of arr) {
+                console.log(item)
+            }
+
+            months.map(month => `$(month) 2021) ->  returns array of altered values 
+
+        While loops:
+
+            known as indefinate loops 
+            need to meet certain condition to end loops
+            easy to cause infinate loops
+
+            while(true) -> infinate loops
+
+            let counter = 0;
+            while (counter < 100) {
+                console.log(counter);
+                counter++
+            }
+
+            do whiles will do whats in the do before the while 
+
+               
+
 
     The DOM: 
 
