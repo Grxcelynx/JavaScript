@@ -556,11 +556,12 @@ DAY 6:
             will return data later 
             can call the await keyword on the async function 
             cannot do / work in global scope because global is not asynch it is ran sync 
+ 
 
 
 
+    APIs: application programming interface 
 
-    APIs:
         Usually have a key 
         Some need authenitcation 
         Some are open but rate limited 
@@ -569,5 +570,40 @@ DAY 6:
                 
             })
 
-    JSON:
+        JS has a Fetch API which returs a response 
+            response object has methods for handling data
+                JSON
+                blob
+
+            response.json => returns  promise 
+
+
+        Postman;
+            testing tool for JS data API 
+
+
+    JSON: JavaScript Object Notation 
+
+        Format: 
+            {
+                "something" {
+                    "id": "Someting"
+                }
+            }
+        let string = json.stringify(data)
+        Json.parse(stringified)
+
+        doubled quoted 
+        no trailing commas 
+        json text is valid JavaScript
+
+DAY 7:
+
+    Arrays:
+
+    Loops:
+
+    The DOM: 
+
+    Event Listeners:
 
