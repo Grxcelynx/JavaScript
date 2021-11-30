@@ -654,10 +654,28 @@ DAY 7:
 
             do whiles will do whats in the do before the while 
 
-               
-
 
     The DOM: 
 
+        Document Object Model 
+        Object of website layout 
+            structure 
+            style 
+            content 
+        API to interact with it 
+
+        Can acess element properties 
+            .innerHTML
+            .<attribute>
+
+        document -> interacts w/ the dom 
+
+        document.getElementById()
+
     Event Listeners:
 
+        listens for events 
+        can add and remove them from events 
+
+        <input type="text" onChange="getMovie(this.value)" id="movies" placeHolder="movie"/>
+        btn.addEventListener("click", clearResults )
