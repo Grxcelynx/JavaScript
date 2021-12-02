@@ -704,3 +704,26 @@ DAY 8:
         const newObj = new functionConsutrctor
         console.log(obj.name)
         console.log(newObj.name)
+
+    Classes:
+
+        blueprint for creating object
+        organize fuctionality 
+        map IRL objects 
+
+        body of class excicuted in strict mode 
+        constructor method is special method for creating objects 
+        new keyword to create instance of class
+        built on top of prototypes 
+        "class" notation is special function 
+        decloration or expression 
+
+
+        class tiger {
+            constructor(name) {
+                this.name =name;
+            }
+        }
+
+        const tiger1 = new Tiger("tigger");
+        alert(tigger1.name);
