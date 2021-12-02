@@ -679,3 +679,28 @@ DAY 7:
 
         <input type="text" onChange="getMovie(this.value)" id="movies" placeHolder="movie"/>
         btn.addEventListener("click", clearResults )
+
+DAY 8:
+
+
+    Objects:
+        Value in memeory which is reffranced by some ifentifier 
+        Collection of properties 
+
+        const obj = {}; -> no properties 
+
+        const obj = {
+            name: "bob", ->idx 1= key idx 2 = value 
+            addy: "home"
+            cart: [{},{},{}]
+        }; -> literal 
+        
+        const functionConsutrctor = function() {
+            this.name = "bob";
+            this.addy = "home";
+        };
+
+
+        const newObj = new functionConsutrctor
+        console.log(obj.name)
+        console.log(newObj.name)
