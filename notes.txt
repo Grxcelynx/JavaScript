@@ -727,3 +727,30 @@ DAY 8:
 
         const tiger1 = new Tiger("tigger");
         alert(tigger1.name);
+
+
+DAY 9
+
+    Forms:
+
+        method:
+            get: passing data
+            Post: updating data 
+
+        action: endpoint form would be submitted to 
+            would show as an HTTP request
+
+   submit:
+    when using type use submit it will submit form as long 
+    as its in the form tag 
+
+    event.preventDefault() -> stop reload
+
+    static createCar(form) {
+        return new car({
+            make: form[0].value,
+            model: form[0].value,
+            year: form[0].valueAsNumber
+            condition: document.querySelector('input [name =conditon']:checked)
+        })
+    }
