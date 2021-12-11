@@ -754,3 +754,23 @@ DAY 9
             condition: document.querySelector('input [name =conditon']:checked)
         })
     }
+
+    to hide form: 
+        hidden attribute true or false 
+
+
+DAY 10:
+
+    Post final project lin in class slack channel 
+
+    session storage:
+        as long as a browser tab is open 
+        includes page relaods 
+        limit of 5MB - may differ form browsers 
+
+
+    local storage:
+        persists 
+        stores data with no experaton time 
+        only clearing through JS or cache 
+        
