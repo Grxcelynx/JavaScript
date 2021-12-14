@@ -774,3 +774,43 @@ DAY 10:
         stores data with no experaton time 
         only clearing through JS or cache 
         
+DAY 11
+
+    Regular Expression:
+        Reg Exp
+
+        fastest way to match petterns in text 
+
+        Literal:
+            let regex = /ab+c/
+            let regex = 
+
+            const ssnRegex = new RegExp (/^\d{3}-\d{4{}}$/)
+            .test
+
+        Meta characters:
+
+            ^ = at the start of this line this patter will match
+            $ = at the end of this line this patter will match 
+                use both to get patching patterns 
+            d{1,3} -> match between those numbers given 
+            \ = any diget 0-9 or do [0-9]
+            let accountNameRegex = new RegExp(/[0-9a-zA-Z_\-]+/)
+            - = mean special in [] outside only character
+            . = match the first character 
+
+    Modules:
+
+        gives a way to import and export files
+        export:
+            intidicul items
+            encompassing object
+        import:
+            individual items
+            all items and give an alias 
+        
+        only works within module javascript 
+
+        type="module" to script tag with main.js src file 
+        import in main it'lll import for you and update 
+        
