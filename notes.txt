@@ -814,3 +814,16 @@ DAY 11
         type="module" to script tag with main.js src file 
         import in main it'lll import for you and update 
         
+DAY 12:
+
+    IIFE:
+        (function () {
+            var name = "Hello World";
+        })()
+
+        console.log(name)
+
+        incap data 
+        keeps variables from poluting gloabl scope 
+        can lock state 
+        
